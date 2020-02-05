@@ -2,10 +2,18 @@
 
 The following steps are outlined to demonstrate the functionality of
 the Germ Line Age Calculator. These steps are to be used with the
-Illumina methylation array data sets (450k or EPIC). Specifically, the
-steps outlined below assume that beta-values (SWAN normalized) are
-available which can be performed with multiple different open source
-tools (ChAMP, Minfi, etc.) as well as other software tools (Partek).
+Illumina methylation array data sets (450k or EPIC). 
+
+There are two options for producing an age prediction from sperm DNA 
+methylation array data. The first and simplest is the comprehensive 
+code ("ComprehensiveGLACode.R") which will process the data directly 
+from idat files. Instructions for this simplified method is can be 
+found in the document "Instructions For Comprehesive Code.pdf".
+
+The alternative is working with data that has already undergone 
+SWAN normalization to generate beta values via any of the multiple 
+options for open source tools (ChAMP, Minfi, etc.) For this option
+follow the instructions outlined below.
 
 Access files needed to run the Germ Line Age Calculator:
 ```
@@ -102,7 +110,7 @@ Contacts and bug reports
 ========================
 
 Tim Jenkins
-tim.jenkins@hsc.utah.edu
+tim_jenkins@byu.edu
 
 
 Copyright and License Information
