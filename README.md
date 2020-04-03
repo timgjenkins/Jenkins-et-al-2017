@@ -7,7 +7,7 @@ Illumina methylation array data sets (450k or EPIC).
 There are two options for producing an age prediction from sperm DNA 
 methylation array data. The first and simplest is the comprehensive 
 code ("ComprehensiveGLACode.R") which will process the data directly 
-from idat files. Instructions for this simplified method is can be 
+from idat files. Instructions for this simplified method can be 
 found in the document "Instructions For Comprehesive Code.pdf".
 
 The alternative is working with data that has already undergone 
